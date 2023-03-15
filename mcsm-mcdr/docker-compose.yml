@@ -1,0 +1,12 @@
+version: "3"
+services:
+  libereca-8:
+    image: jinzhijie/mcsm-mcdr:libereca-8
+    build:
+      context: .
+      dockerfile: libereca-8.Dockerfile
+  libereca-17:
+    image: jinzhijie/mcsm-mcdr:libereca-17
+    build:
+      context: .
+      dockerfile: libereca-17.Dockerfile
